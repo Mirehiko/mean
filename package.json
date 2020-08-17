@@ -1,0 +1,31 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Data from lesson NodeJS, Express, MongoDB - Приложение целиком https://www.youtube.com/watch?v=8bE_PBRriyU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirehiko/mean.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "mirehiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirehiko/mean/issues"
+  },
+  "homepage": "https://github.com/Mirehiko/mean#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
