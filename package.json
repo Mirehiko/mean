@@ -1,0 +1,31 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Data by MEAN (Mongo, Express, Angular, Node.js) course",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "gulp": "^4.0.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirehiko/mean.git"
+  },
+  "author": "mirehiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirehiko/mean/issues"
+  },
+  "homepage": "https://github.com/Mirehiko/mean#readme"
+}
