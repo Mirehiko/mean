@@ -1,0 +1,29 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "Data by MEAN (Mongo, Express, Angular, Node.js) course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirehiko/mean.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Node.js",
+    "Angular"
+  ],
+  "author": "mirehiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirehiko/mean/issues"
+  },
+  "homepage": "https://github.com/Mirehiko/mean#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
