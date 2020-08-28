@@ -3,7 +3,6 @@ import { Subscription } from 'rxjs';
 import { MaterialInstance, MaterialService } from '../shared/classes/material.service';
 import { OrdersService } from '../shared/services/orders.service';
 import { Filter, Order } from '../shared/interfaces';
-import { Filter } from 'src/app/shared/interfaces';
 
 
 const STEP = 2;
