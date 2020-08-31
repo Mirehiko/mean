@@ -2,3 +2,4 @@ node_modules/**
 uploads/*.jpeg
 uploads/*.png
 uploads/*.jpg
+config/keys.dev.js
