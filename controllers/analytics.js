@@ -77,9 +77,9 @@ function getOrdersMap(orders = []) {
     orders.forEach(order => {
       const date = moment(order.date).format('DD.MM.YYYY');
   
-      if (date === moment().format('DD.MM.YYYY')) {
-        return;
-      }
+    //   if (date === moment().format('DD.MM.YYYY')) {
+    //     return;
+    //   }
   
       if (!daysOrders[date]) {
         daysOrders[date] = [];
