@@ -4,7 +4,7 @@ function createSubscribe(name) {
             console.log(`${name}:`, x);
         },
         error(err) {
-            console.log(`Error:`, x);
+            console.log(`Error:`, err);
         },
         complete() {
             console.log(`${name}:`, 'Completed');
