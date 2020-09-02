@@ -25,4 +25,4 @@ delay(3000).then(() => {
 });
 
 const p$ = rxjs.from(delay(4000));
-p$.subscribe(createSubscribe('fromPromise'))
+p$.subscribe(createSubscribe('fromPromise'));

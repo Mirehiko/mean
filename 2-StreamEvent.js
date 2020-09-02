@@ -11,3 +11,4 @@ rxjs.fromEvent(document, 'mousemove')
     .subscribe(e => {
         document.querySelector('#mousepos').innerHTML = `x: ${e.clientX}, Y: ${e.clientY}`;
     });
+    
