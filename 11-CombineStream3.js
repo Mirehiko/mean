@@ -51,3 +51,4 @@ const t3$ = rxjs.timer(3000, 2000);
 rxjs.combineLatest(t1$, t2$, t3$)
   .pipe(rxjs.operators.take(5))
   .subscribe(createSubscribe('combineLatest'));
+  
